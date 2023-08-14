@@ -1,0 +1,26 @@
+.app-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  width: 250px;
+  height: 250px;
+}
+.images {
+  width: 70%;
+  margin-bottom: 20px;
+}
+.title {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
